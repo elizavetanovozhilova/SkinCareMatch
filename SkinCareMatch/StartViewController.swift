@@ -1,5 +1,6 @@
 import UIKit
 
+var users = [(login: "admin", password:"admin")]
 class StartViewController: UIViewController {
 
     

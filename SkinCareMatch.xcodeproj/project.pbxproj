@@ -19,6 +19,8 @@
 		4DAE2E862C3AB7C200A38F86 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE2E852C3AB7C200A38F86 /* SignUpViewController.swift */; };
 		4DAE2E882C3AB81800A38F86 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE2E872C3AB81800A38F86 /* SignInViewController.swift */; };
 		4DAE2E8A2C3AB9FB00A38F86 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE2E892C3AB9FB00A38F86 /* HomeViewController.swift */; };
+		4DCD869C2C3B01EC00C95B96 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD869B2C3B01EC00C95B96 /* UserManager.swift */; };
+		4DCD869E2C3B0BB700C95B96 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD869D2C3B0BB700C95B96 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		4DAE2E852C3AB7C200A38F86 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4DAE2E872C3AB81800A38F86 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4DAE2E892C3AB9FB00A38F86 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4DCD869B2C3B01EC00C95B96 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		4DCD869D2C3B0BB700C95B96 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,11 @@
 		4D2B751F2C3AB528009BFD18 /* SkinCareMatch */ = {
 			isa = PBXGroup;
 			children = (
+				4DCD869B2C3B01EC00C95B96 /* UserManager.swift */,
 				4D2B75202C3AB528009BFD18 /* AppDelegate.swift */,
 				4D2B75222C3AB528009BFD18 /* SceneDelegate.swift */,
 				4D2B75262C3AB528009BFD18 /* Main.storyboard */,
+				4DCD869D2C3B0BB700C95B96 /* TestViewController.swift */,
 				4DAE2E892C3AB9FB00A38F86 /* HomeViewController.swift */,
 				4D2B75242C3AB528009BFD18 /* StartViewController.swift */,
 				4DAE2E872C3AB81800A38F86 /* SignInViewController.swift */,
@@ -269,6 +275,8 @@
 			files = (
 				4D2B75252C3AB528009BFD18 /* StartViewController.swift in Sources */,
 				4D2B75212C3AB528009BFD18 /* AppDelegate.swift in Sources */,
+				4DCD869E2C3B0BB700C95B96 /* TestViewController.swift in Sources */,
+				4DCD869C2C3B01EC00C95B96 /* UserManager.swift in Sources */,
 				4DAE2E862C3AB7C200A38F86 /* SignUpViewController.swift in Sources */,
 				4DAE2E882C3AB81800A38F86 /* SignInViewController.swift in Sources */,
 				4D2B75232C3AB528009BFD18 /* SceneDelegate.swift in Sources */,
