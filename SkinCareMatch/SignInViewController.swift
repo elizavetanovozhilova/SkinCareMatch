@@ -1,6 +1,5 @@
 import UIKit
 
-
 class SignInViewController: UIViewController {
     
     @IBOutlet weak var infoLabel: UILabel!

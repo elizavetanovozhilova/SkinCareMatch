@@ -90,7 +90,7 @@ class TestViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         }
         
         SkinTypeLabel.text = "Your skin is \(skinType)"
-        SkinTypeLabel.textColor = .purple
+        SkinTypeLabel.textColor = .gray
         return skinType
  
     }
