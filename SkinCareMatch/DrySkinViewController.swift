@@ -1,8 +1,13 @@
 import UIKit
 let products: [Product] = [
-    Product(imageName: "oily1", name: "COSRX salicylic acid exfoliating cleanser", websiteURL: URL(string: "https://goldapple.ru/99800200012-salicylic-acid-exfoliating-cleanser")),
-    Product(imageName: "product2", name: "Очищающая пенка", websiteURL: URL(string: "https://www.example.com/gg")),
-    Product(imageName: "product3", name: "Солнцезащитный крем", websiteURL: URL(string: "https://www.example.com/suncream"))
+    Product(imageName: "dry1", name: "ID.AZ dermastic foaming cleanser", websiteURL: URL(string: "https://goldapple.ru/19000049908-dermastic-foaming-cleanser")),
+    Product(imageName: "dry2", name: "OKOLO hedonist night retreat", websiteURL: URL(string: "https://goldapple.ru/19000200467-hedonist-night-retreat")),
+    Product(imageName: "dry3", name: "MA:NYO panthetoin essence toner", websiteURL: URL(string: "https://goldapple.ru/19000198861-panthetoin-essence-toner")),
+    Product(imageName: "dry4", name: "LA ROCHE-POSAY cicaplast b5 gel lavant", websiteURL: URL(string: "https://goldapple.ru/19760335448-cicaplast-b5-gel-lavant")),
+    Product(imageName: "dry5", name: "CLARINS lotion tonique hydratante", websiteURL: URL(string: "https://goldapple.ru/19760334997-lotion-tonique-hydratante")),
+    Product(imageName: "dry6", name: "TRUE ISLAND honey bee collagen wrinkle solution eye cream", websiteURL: URL(string: "https://goldapple.ru/19000019948-honey-bee-collagen-wrinkle-solution-eye-cream")),
+    Product(imageName: "dry7", name: "OMOROVICZA illuminating moisturiser", websiteURL: URL(string: "https://goldapple.ru/15480800001-illuminating-moisturiser")),
+    Product(imageName: "dry8", name: "SCINIC hyaluronic acid cream", websiteURL: URL(string: "https://goldapple.ru/19000113987-hyaluronic-acid-cream"))
 ]
 
 class DrySkinViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {

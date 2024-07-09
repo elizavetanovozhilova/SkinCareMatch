@@ -1,8 +1,17 @@
 import UIKit
 let products2: [Product] = [
     Product(imageName: "oily1", name: "COSRX salicylic acid exfoliating cleanser",websiteURL: URL(string: "https://goldapple.ru/99800200012-salicylic-acid-exfoliating-cleanser")),
-    Product(imageName: "product2", name: "Очищающая пенка", websiteURL: nil),
-    Product(imageName: "product3", name: "Солнцезащитный крем", websiteURL: URL(string: "https://www.example.com/suncream"))
+    Product(imageName: "oily2", name: "COSRX aha/bha clarifying treatment toner", websiteURL: URL(string: "https://goldapple.ru/97560200002-aha-bha-clarifying-treatment-tonerm")),
+    Product(imageName: "oily3", name: "ART & FACT niacinamide 10% + zinc 1%", websiteURL: URL(string: "https://goldapple.ru/19000039298-niacinamide-10-zinc-1-sebum-regulating-anti-acne")),
+    Product(imageName: "oily4", name: "CELIMAX oil control light sunscreen ", websiteURL: URL(string: "https://goldapple.ru/19000107932-oil-control-light-sunscreen")),
+    Product(imageName: "oily5", name: "NEEDLY panthenol water gel cream", websiteURL: URL(string: "https://goldapple.ru/19000114203-panthenol-water-gel-cream")),
+    Product(imageName: "oily6", name: "ART & FACT lactic acid 5% + 3d hyaluronic acid 2%", websiteURL: URL(string: "https://goldapple.ru/19000039300-lactic-acid-5-3d-hyaluronic-acid-2-peeling-moisturizing")),
+    Product(imageName: "oily7", name: "ORJENA vitamin c bright eye cream", websiteURL: URL(string: "https://goldapple.ru/19000018906-vitamin-c-bright-eye-cream")),
+    Product(imageName: "oily8", name: "LA ROCHE-POSAY effaclar duo(+)", websiteURL: URL(string: "https://goldapple.ru/89320200003-effaclar-duo")),
+    Product(imageName: "oily9", name: "BIODERMA sebium hydra moisturising replenishing care", websiteURL: URL(string: "https://goldapple.ru/89270200013-sebium-hydra-moisturising-replenishing-care")),
+    Product(imageName: "oily10", name: "BIODERMA sensibio h2o", websiteURL: URL(string: "https://goldapple.ru/89270300021-sebium-h2o")),
+    Product(imageName: "oily11", name: "MA:NYO tea tree herb oil", websiteURL: URL(string: "https://goldapple.ru/19000198824-tea-tree-herb-oil")),
+    Product(imageName: "oily12", name: "ULTRACEUTICALS ultra r.e.d corrective serum ", websiteURL: URL(string: "https://goldapple.ru/19000256701-ultra-r-e-d-correctivel"))
 ]
 
 class OilySkinViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
