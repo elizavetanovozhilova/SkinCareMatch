@@ -25,6 +25,7 @@
 		4DCD86A42C3C4D6C00C95B96 /* OilySkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD86A32C3C4D6C00C95B96 /* OilySkinViewController.swift */; };
 		4DCD86A62C3C4DA500C95B96 /* CombinationSkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD86A52C3C4DA500C95B96 /* CombinationSkinViewController.swift */; };
 		4DCD86A82C3C4DDF00C95B96 /* NormalSkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD86A72C3C4DDF00C95B96 /* NormalSkinViewController.swift */; };
+		7A5976152C3D687B005E232D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5976142C3D687B005E232D /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		4DCD86A32C3C4D6C00C95B96 /* OilySkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilySkinViewController.swift; sourceTree = "<group>"; };
 		4DCD86A52C3C4DA500C95B96 /* CombinationSkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSkinViewController.swift; sourceTree = "<group>"; };
 		4DCD86A72C3C4DDF00C95B96 /* NormalSkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalSkinViewController.swift; sourceTree = "<group>"; };
+		7A5976142C3D687B005E232D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				4DCD86A12C3C4B4000C95B96 /* DrySkinViewController.swift */,
 				4DCD869D2C3B0BB700C95B96 /* TestViewController.swift */,
 				4DAE2E892C3AB9FB00A38F86 /* HomeViewController.swift */,
+				7A5976142C3D687B005E232D /* TabBarViewController.swift */,
 				4D2B75242C3AB528009BFD18 /* StartViewController.swift */,
 				4DAE2E872C3AB81800A38F86 /* SignInViewController.swift */,
 				4DAE2E852C3AB7C200A38F86 /* SignUpViewController.swift */,
@@ -295,6 +298,7 @@
 				4DAE2E862C3AB7C200A38F86 /* SignUpViewController.swift in Sources */,
 				4DAE2E882C3AB81800A38F86 /* SignInViewController.swift in Sources */,
 				4DCD86A62C3C4DA500C95B96 /* CombinationSkinViewController.swift in Sources */,
+				7A5976152C3D687B005E232D /* TabBarViewController.swift in Sources */,
 				4D2B75232C3AB528009BFD18 /* SceneDelegate.swift in Sources */,
 				4DAE2E8A2C3AB9FB00A38F86 /* HomeViewController.swift in Sources */,
 			);
