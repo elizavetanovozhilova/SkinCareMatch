@@ -17,6 +17,9 @@ class CombinationSkinViewController: UIViewController,UITableViewDataSource, UIT
         TableViewCombiSkin.register(UITableViewCell.self, forCellReuseIdentifier: "ProductCellCombi")
         navigationItem.title = "Combi Skin Products"
         navigationController?.navigationBar.prefersLargeTitles = true
+        TableViewCombiSkin.backgroundColor = UIColor.gray // Устанавливаем  цвет фона таблицы
+
+
 
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

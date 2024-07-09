@@ -17,6 +17,8 @@ class NormalSkinViewController: UIViewController,UITableViewDataSource, UITableV
         TableViewNormalSkin.register(UITableViewCell.self, forCellReuseIdentifier: "ProductCellNormal")
         navigationItem.title = "Normal Skin Products"
         navigationController?.navigationBar.prefersLargeTitles = true
+        TableViewNormalSkin.backgroundColor = UIColor.gray // Устанавливаем  цвет фона таблицы
+
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
                 return products4.count

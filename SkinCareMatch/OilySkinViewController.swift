@@ -17,6 +17,8 @@ class OilySkinViewController: UIViewController,UITableViewDataSource, UITableVie
         TableViewOilySkin.register(UITableViewCell.self, forCellReuseIdentifier: "ProductCellOily")
         navigationItem.title = "Oily Skin Products"
         navigationController?.navigationBar.prefersLargeTitles = true
+        TableViewOilySkin.backgroundColor = UIColor.gray // Устанавливаем  цвет фона таблицы
+
         
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

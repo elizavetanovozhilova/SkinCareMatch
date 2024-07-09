@@ -17,6 +17,7 @@ class DrySkinViewController: UIViewController,UITableViewDataSource, UITableView
         TableViewDrySkin.register(UITableViewCell.self, forCellReuseIdentifier: "ProductCellDry")
         navigationItem.title = "Dry Skin Products"
         navigationController?.navigationBar.prefersLargeTitles = true
+        TableViewDrySkin.backgroundColor = UIColor.gray // Устанавливаем  цвет фона таблицы
 
     }
     
