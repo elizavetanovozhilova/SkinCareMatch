@@ -1,8 +1,13 @@
 import UIKit
 let products4: [Product] = [
-    Product(imageName: "oily1", name: "COSRX salicylic acid exfoliating cleanser", websiteURL: URL(string: "https://goldapple.ru/99800200012-salicylic-acid-exfoliating-cleanser")),
-    Product(imageName: "product2", name: "Очищающая пенка", websiteURL: nil),
-    Product(imageName: "product3", name: "Солнцезащитный крем", websiteURL: URL(string: "https://www.example.com/suncream"))
+    Product(imageName: "norm1", name: "HOLY LAND youthful cream for normal skin", websiteURL: URL(string: "https://goldapple.ru/19000038014-youthful-cream-for-normal-to-oily-skin")),
+    Product(imageName: "norm2", name: "LA ROCHE-POSAY hydraphase ha", websiteURL: URL(string: "https://goldapple.ru/19000005029-hydraphase-ha")),
+    Product(imageName: "norm3", name: "ZEROID soothing", websiteURL: URL(string: "https://goldapple.ru/19000187929-soothing")),
+    Product(imageName: "norm4", name: "PAYOT crème vitaminée éclat", websiteURL: URL(string: "https://goldapple.ru/19000127965-creme-vitaminee-eclat")),
+    Product(imageName: "norm5", name: "EAU THERMALE AVENE hydrance legere ", websiteURL: URL(string: "https://goldapple.ru/89190500003-hydrance-optimale-legere")),
+    Product(imageName: "norm6", name: "BIODERMA hydrabio light moisturizing care", websiteURL: URL(string: "https://goldapple.ru/89270500008-hydrabio-light-moisturizing-care")),
+    Product(imageName: "norm7", name: "COLLA GEN cleansing foam", websiteURL: URL(string: "https://goldapple.ru/19000210029-cleansing-foam")),
+    Product(imageName: "norm8", name: "DERMEDIC redness correcting day cream uv+ir spf20", websiteURL: URL(string: "https://goldapple.ru/19000111575-redness-spf20")),
 ]
 
 class NormalSkinViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {

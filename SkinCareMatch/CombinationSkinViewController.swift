@@ -1,8 +1,14 @@
 import UIKit
 let products3: [Product] = [
-    Product(imageName: "oily1", name: "COSRX salicylic acid exfoliating cleanser", websiteURL: URL(string: "https://goldapple.ru/99800200012-salicylic-acid-exfoliating-cleanser")),
-    Product(imageName: "product2", name: "Очищающая пенка", websiteURL: nil),
-    Product(imageName: "product3", name: "Солнцезащитный крем", websiteURL: URL(string: "https://www.example.com/suncream"))
+    Product(imageName: "combi1", name: "HYGGEE  all-in-one essence", websiteURL: URL(string: "https://goldapple.ru/19000001674-all-in-one-essence")),
+    Product(imageName: "combi2", name: "EAU THERMALE AVENE hydrance legere", websiteURL: URL(string: "https://goldapple.ru/89190500003-hydrance-optimale-legere")),
+    Product(imageName: "combi3", name: "TENZERO clear fit heartleaf toner", websiteURL: URL(string: "https://goldapple.ru/19000158947-clear-fit-heartleaf-toner")),
+    Product(imageName: "combi4", name: "FRUDIA green grape", websiteURL: URL(string: "https://goldapple.ru/9410300006-green-grape")),
+    Product(imageName: "combi5", name: "BISOU combination and oily skin ", websiteURL: URL(string: "https://goldapple.ru/19000079461-combination-and-oily-skin")),
+    Product(imageName: "combi6", name: "SVR mat + pores sebiaclear", websiteURL: URL(string: "https://goldapple.ru/19000190341-mat-pores-sebiacleare")),
+    Product(imageName: "combi7", name: "THE SKIN HOUSE natural balancing cream", websiteURL: URL(string: "https://goldapple.ru/99721000002-natural-balancing-cream")),
+    Product(imageName: "combi8", name: "ONE-DAYS YOU no more blackhead blue", websiteURL: URL(string: "https://goldapple.ru/19000197075-no-more-blackhead-blue")),
+    Product(imageName: "combi9", name: "BABOR refining enzyme & vitamin c cleanser", websiteURL: URL(string: "https://goldapple.ru/19000157283-refining-enzyme-vitamin-c-cleanser"))
 ]
 
 class CombinationSkinViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
