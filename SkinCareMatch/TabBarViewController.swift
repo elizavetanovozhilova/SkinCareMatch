@@ -1,8 +1,8 @@
 import UIKit
 let products5: [Product] = [
-    Product(imageName: "amina", name: "Амина Газизова",websiteURL: URL(string: "https://t.me/fliwoll")),
+    Product(imageName: "amalia", name: "Амалия Кремень",websiteURL: URL(string: "https://t.me/amallichinka")),
     Product(imageName: "liza", name: "Елизавета Новожилова", websiteURL: URL(string: "https://t.me/lzznm")),
-    Product(imageName: "amalia", name: "Амалия Кремень", websiteURL: URL(string: "https://t.me/amallichinka"))
+    Product(imageName: "amina", name: "Амина Газизова", websiteURL: URL(string: "https://t.me/fliwoll"))
 ]
 
 class TabBarViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
@@ -15,9 +15,9 @@ class TabBarViewController: UIViewController,UITableViewDataSource, UITableViewD
         TabBarView.dataSource = self
         TabBarView.delegate = self
         TabBarView.register(UITableViewCell.self, forCellReuseIdentifier: "девочки")
-        navigationItem.title = "Наши разработчики"
+        navigationItem.title = "Our creators"
         navigationController?.navigationBar.prefersLargeTitles = true
-        TabBarView.backgroundColor = UIColor.gray // Устанавливаем  цвет фона таблицы
+        TabBarView.backgroundColor = UIColor.white
         
         
     }
@@ -30,13 +30,10 @@ class TabBarViewController: UIViewController,UITableViewDataSource, UITableViewD
             
             let product = products5[indexPath.row]
             
-            // Загружаем картинку
             let image = UIImage(named: product.imageName)
             cell.imageView?.image = image
-            
-            // Устанавливаем текст для ячейки
-            cell.textLabel?.numberOfLines = 0 // Разрешаем перенос строк
-            cell.textLabel?.lineBreakMode = .byWordWrapping // Обрываем по словам
+            cell.textLabel?.numberOfLines = 0
+            cell.textLabel?.lineBreakMode = .byWordWrapping
             cell.textLabel?.text = product.name
             cell.textLabel?.isUserInteractionEnabled = true
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(productTapped(gesture:)))
